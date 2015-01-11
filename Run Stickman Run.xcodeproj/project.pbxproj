@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAB4AC7A1A621ED800E461FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4AC791A621ED800E461FA /* AppDelegate.swift */; };
+		EAB4AC7C1A621ED800E461FA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EAB4AC7B1A621ED800E461FA /* GameScene.sks */; };
+		EAB4AC7E1A621ED800E461FA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4AC7D1A621ED800E461FA /* GameScene.swift */; };
+		EAB4AC801A621ED800E461FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4AC7F1A621ED800E461FA /* GameViewController.swift */; };
+		EAB4AC831A621ED800E461FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB4AC811A621ED800E461FA /* Main.storyboard */; };
+		EAB4AC851A621ED800E461FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB4AC841A621ED800E461FA /* Images.xcassets */; };
+		EAB4AC881A621ED800E461FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB4AC861A621ED800E461FA /* LaunchScreen.xib */; };
+		EAB4AC941A621ED800E461FA /* Run_Stickman_RunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB4AC931A621ED800E461FA /* Run_Stickman_RunTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB4AC8E1A621ED800E461FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB4AC6C1A621ED700E461FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB4AC731A621ED700E461FA;
+			remoteInfo = "Run Stickman Run";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAB4AC741A621ED700E461FA /* Run Stickman Run.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Run Stickman Run.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB4AC781A621ED700E461FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB4AC791A621ED800E461FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAB4AC7B1A621ED800E461FA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EAB4AC7D1A621ED800E461FA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EAB4AC7F1A621ED800E461FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EAB4AC821A621ED800E461FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB4AC841A621ED800E461FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAB4AC871A621ED800E461FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAB4AC8D1A621ED800E461FA /* Run Stickman RunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Run Stickman RunTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB4AC921A621ED800E461FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB4AC931A621ED800E461FA /* Run_Stickman_RunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run_Stickman_RunTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB4AC711A621ED700E461FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4AC8A1A621ED800E461FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAB4AC6B1A621ED700E461FA = {
+			isa = PBXGroup;
+			children = (
+				EAB4AC761A621ED700E461FA /* Run Stickman Run */,
+				EAB4AC901A621ED800E461FA /* Run Stickman RunTests */,
+				EAB4AC751A621ED700E461FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB4AC751A621ED700E461FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4AC741A621ED700E461FA /* Run Stickman Run.app */,
+				EAB4AC8D1A621ED800E461FA /* Run Stickman RunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB4AC761A621ED700E461FA /* Run Stickman Run */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4AC791A621ED800E461FA /* AppDelegate.swift */,
+				EAB4AC7B1A621ED800E461FA /* GameScene.sks */,
+				EAB4AC7D1A621ED800E461FA /* GameScene.swift */,
+				EAB4AC7F1A621ED800E461FA /* GameViewController.swift */,
+				EAB4AC811A621ED800E461FA /* Main.storyboard */,
+				EAB4AC841A621ED800E461FA /* Images.xcassets */,
+				EAB4AC861A621ED800E461FA /* LaunchScreen.xib */,
+				EAB4AC771A621ED700E461FA /* Supporting Files */,
+			);
+			path = "Run Stickman Run";
+			sourceTree = "<group>";
+		};
+		EAB4AC771A621ED700E461FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4AC781A621ED700E461FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB4AC901A621ED800E461FA /* Run Stickman RunTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4AC931A621ED800E461FA /* Run_Stickman_RunTests.swift */,
+				EAB4AC911A621ED800E461FA /* Supporting Files */,
+			);
+			path = "Run Stickman RunTests";
+			sourceTree = "<group>";
+		};
+		EAB4AC911A621ED800E461FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB4AC921A621ED800E461FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB4AC731A621ED700E461FA /* Run Stickman Run */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB4AC971A621ED800E461FA /* Build configuration list for PBXNativeTarget "Run Stickman Run" */;
+			buildPhases = (
+				EAB4AC701A621ED700E461FA /* Sources */,
+				EAB4AC711A621ED700E461FA /* Frameworks */,
+				EAB4AC721A621ED700E461FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Run Stickman Run";
+			productName = "Run Stickman Run";
+			productReference = EAB4AC741A621ED700E461FA /* Run Stickman Run.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB4AC8C1A621ED800E461FA /* Run Stickman RunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB4AC9A1A621ED800E461FA /* Build configuration list for PBXNativeTarget "Run Stickman RunTests" */;
+			buildPhases = (
+				EAB4AC891A621ED800E461FA /* Sources */,
+				EAB4AC8A1A621ED800E461FA /* Frameworks */,
+				EAB4AC8B1A621ED800E461FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB4AC8F1A621ED800E461FA /* PBXTargetDependency */,
+			);
+			name = "Run Stickman RunTests";
+			productName = "Run Stickman RunTests";
+			productReference = EAB4AC8D1A621ED800E461FA /* Run Stickman RunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB4AC6C1A621ED700E461FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "ZJ Bros";
+				TargetAttributes = {
+					EAB4AC731A621ED700E461FA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EAB4AC8C1A621ED800E461FA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EAB4AC731A621ED700E461FA;
+					};
+				};
+			};
+			buildConfigurationList = EAB4AC6F1A621ED700E461FA /* Build configuration list for PBXProject "Run Stickman Run" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB4AC6B1A621ED700E461FA;
+			productRefGroup = EAB4AC751A621ED700E461FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB4AC731A621ED700E461FA /* Run Stickman Run */,
+				EAB4AC8C1A621ED800E461FA /* Run Stickman RunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB4AC721A621ED700E461FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4AC881A621ED800E461FA /* LaunchScreen.xib in Resources */,
+				EAB4AC851A621ED800E461FA /* Images.xcassets in Resources */,
+				EAB4AC7C1A621ED800E461FA /* GameScene.sks in Resources */,
+				EAB4AC831A621ED800E461FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4AC8B1A621ED800E461FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB4AC701A621ED700E461FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4AC7E1A621ED800E461FA /* GameScene.swift in Sources */,
+				EAB4AC801A621ED800E461FA /* GameViewController.swift in Sources */,
+				EAB4AC7A1A621ED800E461FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB4AC891A621ED800E461FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB4AC941A621ED800E461FA /* Run_Stickman_RunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB4AC8F1A621ED800E461FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB4AC731A621ED700E461FA /* Run Stickman Run */;
+			targetProxy = EAB4AC8E1A621ED800E461FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB4AC811A621ED800E461FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB4AC821A621ED800E461FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB4AC861A621ED800E461FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB4AC871A621ED800E461FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB4AC951A621ED800E461FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB4AC961A621ED800E461FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB4AC981A621ED800E461FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Run Stickman Run/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAB4AC991A621ED800E461FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Run Stickman Run/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAB4AC9B1A621ED800E461FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Run Stickman RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Run Stickman Run.app/Run Stickman Run";
+			};
+			name = Debug;
+		};
+		EAB4AC9C1A621ED800E461FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Run Stickman RunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Run Stickman Run.app/Run Stickman Run";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB4AC6F1A621ED700E461FA /* Build configuration list for PBXProject "Run Stickman Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4AC951A621ED800E461FA /* Debug */,
+				EAB4AC961A621ED800E461FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB4AC971A621ED800E461FA /* Build configuration list for PBXNativeTarget "Run Stickman Run" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4AC981A621ED800E461FA /* Debug */,
+				EAB4AC991A621ED800E461FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EAB4AC9A1A621ED800E461FA /* Build configuration list for PBXNativeTarget "Run Stickman RunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB4AC9B1A621ED800E461FA /* Debug */,
+				EAB4AC9C1A621ED800E461FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB4AC6C1A621ED700E461FA /* Project object */;
+}
